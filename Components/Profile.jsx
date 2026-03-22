@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import luffy from "../public/asstes/luffy.jpg";
 import { SquarePen, X } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
 
 function Profile() {
   const [open, setopen] = useState(false);
